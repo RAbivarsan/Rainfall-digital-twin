@@ -28,14 +28,10 @@ Enter rainfall → Click **Simulate** → View instant results with animation.
 
 rainfall-digital-twin/
 │
-
-├── index.html # Main webpage
-
-├── style.css # UI styling
-
-├── script.js # Simulation logic
-
-└── README.md # Documentation
+├── index.html 
+├── style.css 
+├── script.js 
+└── README.md 
 
 ---
 
