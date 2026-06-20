@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rainfall Digital Twin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🌧️ Rainfall Digital Twin</h1>
+
+    <div class="input-box">
+        <label>Enter Rainfall (mm):</label>
+        <input type="number" id="rainInput" placeholder="e.g. 50">
+        <button onclick="simulate()">Simulate</button>
+    </div>
+
+    <div class="results">
+        <h2>Simulation Output</h2>
+        <p>Humidity: <span id="humidity">--</span>%</p>
+        <p>Water Level: <span id="water">--</span> m</p>
+        <p>Damage Risk: <span id="risk">--</span></p>
+    </div>
+
+    <div class="visual">
+        <div id="waterBar"></div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
